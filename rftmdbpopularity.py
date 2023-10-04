@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor
 import ast
 
+#preposses data, encode, remove label from table
 train = pd.read_csv('movie_data_version1.csv')
 y_label = 'tmdb_popularity'
 label = train[y_label]
