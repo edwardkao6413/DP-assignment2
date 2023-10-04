@@ -1,0 +1,2 @@
+We have incorporated the use of two supervised machine learning processes; linear regression and random forest. Both were used separately to imdb votes and tmdb popularity labels. The choice to use Random Forest was its ability to capture non linearity, and robustness to outliers. Linear regression is interpertable. Using both can validate results and provide more diverse insights. 
+
